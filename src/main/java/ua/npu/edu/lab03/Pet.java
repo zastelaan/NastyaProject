@@ -1,8 +1,8 @@
 package ua.npu.edu.lab03;
 
 public class Pet {
-	private String name;
-	private int age;
+	String name;
+	int age;
 
 	Pet() {
 		this("Незнайомець", 0);
@@ -14,11 +14,4 @@ public class Pet {
 		System.out.println(this.name + "  " + this.age);
 	}
 
-	public String getName() {
-		return this.name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
 }
