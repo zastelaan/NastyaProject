@@ -5,7 +5,8 @@ public abstract class Pet {
 	int age;
 
 	Pet() {
-		this("someName", 0);
+		this.name = "Незнайомець";
+		this.age = 0;
 	}
 
 	Pet(String name, int age) {
